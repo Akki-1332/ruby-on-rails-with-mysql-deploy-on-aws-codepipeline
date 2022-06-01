@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: ~/rails_app
+    destination: /root/rails_app
 hooks:
   # ApplicationStop:
   #   - location: scripts/stop_server.sh
