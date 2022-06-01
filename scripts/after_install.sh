@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/bash
 
-chmod 664 /var/www/html/index.html
+sudo cd ~/rails_app && bundle install >>  /var/log/rails.output.log
